@@ -55,3 +55,17 @@ button:hover{
     border:1px solid blue;
     color:rgb(49, 49, 182) ;
 }
+@media(max-width:768px){
+    .holder{
+        flex-direction:column;
+    }
+    .holder div{
+        gap:15px;
+    }
+  .holder h1{
+    height: 198px;
+    width:342px;
+    font-size: 48px;
+    line-height: 54px;
+  }
+}
